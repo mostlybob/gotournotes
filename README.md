@@ -30,7 +30,10 @@ the things I've been doing with Go.
     declared explicitly. The doc sums it up well: "[A var declaration can include 
     initializers, one per variable ... If an initializer is present, the type can be
     omitted...][3]"
-    - (Basic types)
+    - (Basic types) Quite a bit in this chunk: Module level variables with the `var()`
+    construct, use of the `%T` in `fmt.Printf` (and presumably `fmt.Println`) to get
+    the variable's type. I notice there's no equivalent of C#'s `.MaxValue` which is
+    inconvenient.
      
 - Methods and Interfaces
 - Concurrency
