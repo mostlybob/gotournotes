@@ -12,7 +12,16 @@ capture my thoughts.
 I prefer running the tour locally, so I can do this anywhere, regardless of an existing
 connection to the internet. Instructions on how to do that can be found [here][1]. If
 you're confident about your internet availability, or just don't want to hassle with
-getting it set up locally, you can do the tour [here][2]. 
+getting it set up locally, you can do the tour [here][2]. The shortcut, when you have it
+installed locally is to run `$ gotour` in a terminal. If you `go get` the source, it 
+installs at `$GOPATH/src/golang.org/x/tour/` 
+
+My notes don't make much attempt to abstract out my working environment, which is
+Linux (at time of writing [Korora][4] 24 to be specific), but I pretty much follow
+the conventions in the tour. I've noodled a bit with Go under Windows and not at all
+under Mac. Your mileage may vary, but I think Go does a decent job of staying platform
+agnostic. I'm still pretty new at it, so there may be some differences down in the guts.
+This doc, by intent, is pretty rudimentary in nature.
 
 I'm flattered if anyone finds this document useful, but really the value comes in doing
 it yourself. Clone or flat out steal the doc, I don't care what, but I'm really liking
@@ -52,7 +61,7 @@ the things I've been doing with Go.
   - Flow control statements: for, if, else, switch and defer
     - The `for` structure looks familiar, minus the `()`
     - nice shortcut to dispense with unnecessary init variables:
-    
+
     ``` golang
     sum := 1
     for ; sum < 1000; {
@@ -72,3 +81,4 @@ the things I've been doing with Go.
 [1]: https://github.com/golang/tour
 [2]: https://tour.golang.org/
 [3]: https://tour.golang.org/basics/9
+[4]: https://kororaproject.org/
