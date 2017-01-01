@@ -49,6 +49,17 @@ the things I've been doing with Go.
     ```
 
     I would think there are methods that would handle this sort of conversion.
+  - Flow control statements: for, if, else, switch and defer
+    - The `for` structure looks familiar, minus the `()`
+    - nice shortcut to dispense with unnecessary init variables:
+    
+    ``` golang
+    sum := 1
+    for ; sum < 1000; {
+      sum += sum
+    }
+    fmt.Println(sum)
+    ```
 
 
      
