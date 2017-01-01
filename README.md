@@ -22,13 +22,15 @@ the things I've been doing with Go.
 
 - Basics
   - Packages, Variables and Functions
-    - This bit is super handy: `var i, j int = 1, 2` if a bit terse. It took me a bit
-    of noodling around to figure out wth  `var c, python, java = true, false, "no!"`
-    was actually doing, although I have to admit to getting a little distracted with
-    the variable names. What I missed in the second example is the type inference 
-    going on, where in the first example, the type was being declared explicitly. The 
-    doc sums it up well: "[A var declaration can include initializers, one per variable...
-    If an initializer is present, the type can be omitted...][3]"
+    - (Variables with initializers) This bit is super handy: `var i, j int = 1, 2` if a
+    bit terse. It took me a bit of noodling around to figure out wth  `var c, python,
+    java = true, false, "no!"` was actually doing, although I have to admit to getting
+    a little distracted with the variable names. What I missed in the second example
+    is the type inference going on, where in the first example, the type was being
+    declared explicitly. The doc sums it up well: "[A var declaration can include 
+    initializers, one per variable ... If an initializer is present, the type can be
+    omitted...][3]"
+    - (Basic types)
      
 - Methods and Interfaces
 - Concurrency
