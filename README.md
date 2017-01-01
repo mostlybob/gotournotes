@@ -48,6 +48,8 @@ the things I've been doing with Go.
     cannot convert s (type string) to type int
     ```
 
+    I would think there are methods that would handle this sort of conversion.
+
 
      
 - Methods and Interfaces
