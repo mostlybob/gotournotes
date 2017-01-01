@@ -34,6 +34,21 @@ the things I've been doing with Go.
     construct, use of the `%T` in `fmt.Printf` (and presumably `fmt.Println`) to get
     the variable's type. I notice there's no equivalent of C#'s `.MaxValue` which is
     inconvenient.
+    - (Type Conversions) is more like type coercion in that the types need to be natively
+    compatible e.g. going from `int` to `float64`. I tried this:
+    
+    ``` golang
+    var s string ="6"
+    var six = int(s)
+    fmt.Println(six)
+    ```
+    and got:
+
+    ```
+    cannot convert s (type string) to type int
+    ```
+
+
      
 - Methods and Interfaces
 - Concurrency
