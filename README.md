@@ -26,7 +26,10 @@ the things I've been doing with Go.
     of noodling around to figure out wth  `var c, python, java = true, false, "no!"`
     was actually doing, although I have to admit to getting a little distracted with
     the variable names. What I missed in the second example is the type inference 
-    going on, where in the first example, the type was being declared explicitly.
+    going on, where in the first example, the type was being declared explicitly. The 
+    doc sums it up well: "[A var declaration can include initializers, one per variable...
+    If an initializer is present, the type can be omitted...][3]"
+     
 - Methods and Interfaces
 - Concurrency
 
@@ -35,3 +38,4 @@ the things I've been doing with Go.
 
 [1]: https://github.com/golang/tour
 [2]: https://tour.golang.org/
+[3]: https://tour.golang.org/basics/9
