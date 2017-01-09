@@ -61,6 +61,16 @@ I'm flattered if anyone finds this document useful, but really the value comes i
     ```
 
     - (yep, that's it - handy!)
+    - not sure I care for how terse the `if` statement can be with having initialization in the same line as the conditional:
+    
+    ```
+    if v := math.Pow(x, n); v < lim {
+        return v
+    }
+    return lim
+    ```
+
+    - too much terseness starts to muddy the functionality, IMO, although I guess having the variable declaration right beside its conditional test *is* kinda handy 
 
 - Methods and Interfaces
 - Concurrency
